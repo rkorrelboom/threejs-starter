@@ -1,4 +1,3 @@
-// import {Engine, FreeCamera, Mesh, Scene, Vector3} from "babylonjs";
 import {BoxGeometry, Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, WebGLRenderer} from "three";
 import * as debug from "debug";
 import "../config/environment";

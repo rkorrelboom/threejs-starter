@@ -1,7 +1,7 @@
 {
-  "name": "babylonjs-starter",
+  "name": "threejs-starter",
   "version": "1.0.0",
-  "description": "BabylonJS starter",
+  "description": "Three.js starter",
   "scripts": {
     "clean": "rm -rf compiled",
     "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./bin/server.ts",

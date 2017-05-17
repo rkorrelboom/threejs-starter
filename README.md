@@ -1,4 +1,4 @@
-## BabylonJS starter ##
+## Three.js starter ##
 This repo offers an easy to use starter kit for a Three.js project. You
 can use it to create a client only but if you also want to do some 
 server side stuff you can easily implement it in the server class.
