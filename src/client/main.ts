@@ -1,11 +1,9 @@
 import {BoxGeometry, Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, WebGLRenderer} from "three";
-import * as debug from "debug";
 import "../config/environment";
 import "./style.css";
 
 window.addEventListener('DOMContentLoaded', () => {
 
-  const log = debug('app:main');
   const canvas = <HTMLCanvasElement>document.getElementById('game-canvas');
 
   const scene = new Scene();
@@ -28,4 +26,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mesh.rotation.y += 0.01;
     renderer.render(scene, camera);
   }
+
 });
